@@ -1,0 +1,99 @@
+.modal-header{
+  background-color: rgb(97, 206, 112);
+}
+
+/* Information Dialog Button */
+.information-dialog {
+  /* width: fit-content; */
+  /* margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.information-dialog-button {
+}
+/* @media (min-width: 320px) and (max-width: 1024px) */
+
+.bootStrappedDialog {
+  position: absolute;
+  max-width: 770px;
+  /* margin: 25px auto 0; */
+  background: white;
+  /* padding: 25px 50px; */
+  border-radius: 8px;
+  left: 0;
+  right: 0;
+  color: black;
+}
+.bootStrappedDialog-Child {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  border-radius: 20px 20px 0 0;
+  padding: 0;
+  /* height: 88vh; */
+  /* overflow-y: scroll; */
+  bottom: 0;
+}
+
+.list-container {
+  height: calc(100vh - 129px);
+  /* overflow-y: scroll; */
+  width: 100%;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-left: 12px;
+
+  ul {
+    width: 100%;
+    float: left;
+    li {
+      position: relative;
+      border-bottom: none;
+      display: flex;
+      align-items: flex-start;
+
+      .whyUsTextContainer {
+        border: none;
+        padding: 22px 0;
+
+        h3 {
+          font-size: 13px;
+        }
+        p {
+          font-size: 11px;
+          line-height: 19px;
+        }
+      }
+      .whyUsIcon {
+        min-width: 70px;
+        height: 70px;
+        margin-right: 6px;
+        margin-top: 14px;
+        text-align: center;
+        justify-content: center;
+        img {
+          max-width: 52px;
+          max-height: 44px;
+          width: auto;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+.information-dialog-title {
+  /* background-color: #fff0d3; */
+  font-weight: 600;
+  /* font-size: 1.25rem; */
+  line-height: 1.6;
+  /* letter-spacing: 0.0075em; */
+  padding: 16px 24px;
+}
